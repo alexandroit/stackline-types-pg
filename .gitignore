@@ -1,0 +1,5 @@
+node_modules/
+release-candidate/
+.release-candidate-staging-*/
+*.tgz
+*.log

@@ -1,0 +1,11 @@
+@stackline/types-pg is an independent compatibility fork of the pg type
+definitions from DefinitelyTyped.
+
+Upstream project: https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/pg
+Reviewed compatibility baseline: @types/pg 8.23.1
+Upstream content hash: 4c3006364fd06c962ce8e915a3dcf8d0d87bfec39f509aa95b270ad620cad104
+Original declaration author: Phips Peter
+License: MIT
+
+The upstream declaration files are preserved unchanged. Stackline maintains
+the dependency routing, tests, documentation, and release evidence.
