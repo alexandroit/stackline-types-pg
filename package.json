@@ -48,7 +48,7 @@
         "pg-types": "npm:@stackline/pg-types@1.0.0"
     },
     "devDependencies": {
-        "typescript": "6.0.3"
+        "typescript": "7.0.2"
     },
     "files": [
         "index.d.ts",
