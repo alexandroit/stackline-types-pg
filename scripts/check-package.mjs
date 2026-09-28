@@ -8,7 +8,7 @@ const root = fileURLToPath(new URL('../', import.meta.url))
 const manifest = JSON.parse(await readFile(path.join(root, 'package.json'), 'utf8'))
 
 assert.equal(manifest.name, '@stackline/types-pg')
-assert.equal(manifest.version, '1.0.0')
+assert.equal(manifest.version, '1.0.1')
 assert.equal(manifest.types, 'index.d.ts')
 assert.equal(manifest.main, './index.js')
 assert.equal(manifest.type, 'commonjs')

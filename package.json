@@ -1,87 +1,89 @@
 {
-    "name": "@stackline/types-pg",
-    "version": "1.0.0",
-    "description": "Dependency-reviewed TypeScript definitions compatible with @types/pg 8.23.1",
-    "homepage": "https://alexandro.net/docs/vanilla/types-pg/",
-    "license": "MIT",
-    "contributors": [
-        {
-            "name": "Phips Peter",
-            "githubUsername": "pspeter3",
-            "url": "https://github.com/pspeter3"
-        }
-    ],
-    "type": "commonjs",
-    "main": "./index.js",
-    "types": "index.d.ts",
-    "exports": {
-        ".": {
-            "import": {
-                "types": "./index.d.mts",
-                "default": "./index.mjs"
-            },
-            "require": {
-                "types": "./index.d.ts",
-                "default": "./index.js"
-            },
-            "default": "./index.js"
-        },
-        "./lib/*": "./lib/*.d.ts",
-        "./package.json": "./package.json"
+  "name": "@stackline/types-pg",
+  "version": "1.0.1",
+  "description": "Dependency-reviewed TypeScript definitions compatible with @types/pg 8.23.1",
+  "homepage": "https://alexandro.net/docs/vanilla/types-pg/",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Phips Peter",
+      "githubUsername": "pspeter3",
+      "url": "https://github.com/pspeter3"
+    }
+  ],
+  "type": "commonjs",
+  "main": "./index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.mts",
+        "default": "./index.mjs"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./index.js"
+      },
+      "default": "./index.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/alexandroit/stackline-types-pg.git"
-    },
-    "scripts": {
-        "test:types": "tsc -p test/tsconfig.json",
-        "test:smoke": "node scripts/smoke-install.mjs",
-        "check:package": "node scripts/check-package.mjs",
-        "pack:check": "npm pack --dry-run --ignore-scripts",
-        "test": "npm run test:types && npm run test:smoke && npm run check:package",
-        "verify": "npm test && npm run pack:check",
-        "artifact:prepare": "node scripts/create-artifact.mjs"
-    },
-    "dependencies": {
-        "@types/node": "22.20.1",
-        "pg-protocol": "1.16.0",
-        "pg-types": "npm:@stackline/pg-types@1.0.0"
-    },
-    "devDependencies": {
-        "typescript": "6.0.3"
-    },
-    "files": [
-        "index.d.ts",
-        "index.d.mts",
-        "index.js",
-        "index.mjs",
-        "lib",
-        "CHANGELOG.md",
-        "COMPATIBILITY.md",
-        "DEPENDENCY_REVIEW.md",
-        "LICENSE",
-        "MIGRATION.md",
-        "NOTICE",
-        "README.md",
-        "SECURITY.md",
-        "THIRD_PARTY_LICENSES.md",
-        "UPSTREAM_README.md"
-    ],
-    "bugs": {
-        "url": "https://github.com/alexandroit/stackline-types-pg/issues"
-    },
-    "publishConfig": {
-        "access": "public"
-    },
-    "engines": {
-        "node": ">=16"
-    },
-    "keywords": [
-        "pg",
-        "postgres",
-        "postgresql",
-        "typescript",
-        "types"
-    ],
-    "typeScriptVersion": "5.6"
+    "./lib/*": "./lib/*.d.ts",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandroit/stackline-types-pg.git"
+  },
+  "scripts": {
+    "test:types": "tsc -p test/tsconfig.json",
+    "test:smoke": "node scripts/smoke-install.mjs",
+    "check:package": "node scripts/check-package.mjs",
+    "pack:check": "npm pack --dry-run --ignore-scripts",
+    "test": "npm run test:types && npm run test:smoke && npm run check:package",
+    "verify": "npm test && npm run pack:check",
+    "artifact:prepare": "node scripts/create-artifact.mjs"
+  },
+  "dependencies": {
+    "@types/node": "22.20.1",
+    "pg-protocol": "1.16.0",
+    "pg-types": "npm:@stackline/pg-types@1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  },
+  "files": [
+    "index.d.ts",
+    "index.d.mts",
+    "index.js",
+    "index.mjs",
+    "lib",
+    "CHANGELOG.md",
+    "COMPATIBILITY.md",
+    "DEPENDENCY_REVIEW.md",
+    "LICENSE",
+    "MIGRATION.md",
+    "NOTICE",
+    "README.md",
+    "SECURITY.md",
+    "THIRD_PARTY_LICENSES.md",
+    "UPSTREAM_README.md"
+  ],
+  "bugs": {
+    "url": "https://github.com/alexandroit/stackline-types-pg/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "pg",
+    "postgres",
+    "postgresql",
+    "typescript",
+    "types",
+    "stackline",
+    "type-definitions"
+  ],
+  "typeScriptVersion": "5.6"
 }
