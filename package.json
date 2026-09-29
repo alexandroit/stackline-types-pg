@@ -1,6 +1,6 @@
 {
   "name": "@stackline/types-pg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Dependency-reviewed TypeScript definitions compatible with @types/pg 8.23.1",
   "homepage": "https://alexandro.net/docs/vanilla/types-pg/",
   "license": "MIT",
@@ -77,12 +77,15 @@
     "node": ">=16"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "types-pg",
+    "typescript",
+    "nodejs",
     "pg",
     "postgres",
     "postgresql",
-    "typescript",
     "types",
-    "stackline",
     "type-definitions"
   ],
   "typeScriptVersion": "5.6"

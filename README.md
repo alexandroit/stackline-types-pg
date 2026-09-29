@@ -1,17 +1,18 @@
 # @stackline/types-pg
 
-> Dependency-reviewed TypeScript definitions compatible with @types/pg 8.23.1
+> Dependency-reviewed TypeScript definitions compatible with @types/pg 8.23.1.
 
 [![npm version](https://img.shields.io/npm/v/@stackline/types-pg.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/types-pg)
-[![license](https://img.shields.io/npm/l/@stackline/types-pg.svg?style=flat-square)](https://github.com/alexandroit/stackline-types-pg/blob/main/LICENSE)
-[![GitHub repository](https://img.shields.io/badge/GitHub-Repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-types-pg)
+[![license](https://img.shields.io/npm/l/@stackline/types-pg.svg?style=flat-square)](https://github.com/alexandroit/stackline-types-pg)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-types-pg-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-types-pg)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/types-pg/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
-**[Documentation](https://alexandro.net/docs/vanilla/types-pg/)** |
-**[npm](https://www.npmjs.com/package/@stackline/types-pg)** |
-**[Issues](https://github.com/alexandroit/stackline-types-pg/issues)** |
-**[Repository](https://github.com/alexandroit/stackline-types-pg)**
+**[Documentation](https://alexandro.net/docs/vanilla/types-pg/)** | **[npm](https://www.npmjs.com/package/@stackline/types-pg)** | **[Issues](https://github.com/alexandroit/stackline-types-pg/issues)** | **[Repository](https://github.com/alexandroit/stackline-types-pg)**
 
-**Package version:** `1.0.1`
+**Current package version:** `1.0.2`
+
+---
 
 ## Why this package?
 
@@ -27,7 +28,7 @@ the packed package in clean TypeScript consumers.
 
 | Item | Value |
 | --- | --- |
-| Package | `@stackline/types-pg@1.0.1` |
+| Package | `@stackline/types-pg@1.0.2` |
 | Node.js runtime | `>=16` |
 | CommonJS / primary entry | `./index.js` |
 | Type declarations | `index.d.ts` |
@@ -112,16 +113,24 @@ npm run test:smoke
 
 Run `npm run verify` and inspect the package contents before release. Publish a new version through the [GitHub Actions publishing workflow](https://github.com/alexandroit/stackline-types-pg/actions/workflows/publish.yml), using the SHA-512 digest of the reviewed tarball. Verify the exact published version, tarball integrity, and npm provenance after the run.
 
-## Community and Support
-
-Report reproducible package issues in the [issue tracker](https://github.com/alexandroit/stackline-types-pg/issues). Use the [security policy](https://github.com/alexandroit/stackline-types-pg/blob/main/SECURITY.md) for vulnerability reports.
-
-- [Stackline / Alexandro.Net](https://alexandro.net/)
-- [GitHub](https://github.com/alexandroit)
-- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
-- [Reddit community: r/Stackline](https://www.reddit.com/r/Stackline/)
-
 ## License
 
 MIT. The DefinitelyTyped license and author credit are preserved in
 [LICENSE](https://github.com/alexandroit/stackline-types-pg/blob/main/LICENSE), [NOTICE](https://github.com/alexandroit/stackline-types-pg/blob/main/NOTICE), and [UPSTREAM_README.md](https://github.com/alexandroit/stackline-types-pg/blob/main/UPSTREAM_README.md).
+
+## Credits and original authors
+
+- Phips Peter.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
