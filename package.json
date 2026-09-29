@@ -1,6 +1,6 @@
 {
   "name": "@stackline/types-pg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Dependency-reviewed TypeScript definitions compatible with @types/pg 8.23.1",
   "homepage": "https://alexandro.net/docs/vanilla/types-pg/",
   "license": "MIT",
