@@ -1,0 +1,28 @@
+{
+  "repository": "alexandroit/stackline-types-pg",
+  "packages": [
+    {
+      "name": "@stackline/types-pg",
+      "path": "README.md",
+      "version": "1.0.2",
+      "baselineVersion": "1.0.1",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "types-pg",
+        "typescript",
+        "nodejs",
+        "pg",
+        "postgres",
+        "postgresql",
+        "types",
+        "type-definitions"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/types-pg/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/types-pg/-/types-pg-1.0.1.tgz",
+      "baselineIntegrity": "sha512-WQVcd7uymhJp8t4PsP4pe9xSsRTSYAHPd386Rsgzj4K55CUrgqTXqlwQXHUveyDiemT7Z6J7Wfdm6CteJVQkRw==",
+      "expectedSha512": "5fa3c8c2a0a5edc5bed84fbd22df5b435c9bf26acdbc4783d338222461c0f48898432cd93b9420da81374573cf219ca004ec2aa74dcae3da14aa0758d046d922",
+      "tag": "docs-stackline-types-pg-v1.0.2"
+    }
+  ]
+}
